@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "iceberg";
+    src: url('../fonts/Iceberg-Regular.ttf')
+}
+
+@font-face {
+    font-family: "tomorrow";
+    src: url('../fonts/Tomorrow-Regular.ttf')
+}
+
+:root {
+    background-color: #3A1772;
+
+}
+
+html {
+    font-size: 100%
+}
+
+body{
+
+}
+
+nav {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: #1A183F;
+    height: 100%;
+    width: 20%;
+    border: #1CFEF8 solid 2px;
+}
+
+nav>ul>li {
+    font-family: "iceberg";
+    color: #1CFEF8;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+#rub_identite {
+    background-image: url('../images/BackgroundLinesRotated.png');
+
+}
+
+#rub_competences {
+    background-image: url('../images/BackgroundLines.png');
+
+}
+
+#rub_carac {
+    background-image: url('../images/BackgroundLinesRotated.png');
+
+}
+
+#rub_inventaire {
+    background-image: url('../images/BackgroundLines.png');
+
+}
+
+#rub_parcours {
+    background-image: url('../images/BackgroundLinesRotated.png');
+
+}
+
+#rub_contact {
+    background-image: url('../images/BackgroundLines.png');
+
+}
+
+
+.titre_rubrique {
+    font-family: "iceberg";
+    color: #1CFEF8;
+    font-size: 40pt;
+
+}
+
+footer {
+    background-color: #1A183F;
+    border: #1CFEF8 solid 2px;
+    height: 20%;
+}
+
+footer>h3 {
+    color: aquamarine;
+}
+
+footer>p {
+    color: antiquewhite;
+}
